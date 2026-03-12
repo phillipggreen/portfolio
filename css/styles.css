@@ -16,6 +16,12 @@ body {
 	line-height: 1.6;
 	color: var(--text-color);
 	background-color: var(--background-color);
+	overflow-x: hidden;
+}
+
+img {
+	max-width: 100%;
+	display: block;
 }
 
 #navbar {
@@ -97,7 +103,7 @@ h3 {
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-	padding: 100px 20px;
+	padding: 100px 20px 60px;
 }
 
 .home-content {
@@ -106,6 +112,7 @@ h3 {
 	align-items: center;
 	max-width: 1200px;
 	width: 100%;
+	gap: 40px;
 }
 
 .text-content,
@@ -119,13 +126,21 @@ h3 {
 
 .text-content h1 {
 	font-size: 3rem;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	animation: fadeInUp 1s ease-out;
+}
+
+.text-content h3 {
+	font-size: 1.2rem;
+	font-weight: 600;
+	margin-bottom: 18px;
+	animation: fadeInUp 1s ease-out 0.15s backwards;
 }
 
 .tagline {
 	font-size: 1.2rem;
 	margin-bottom: 30px;
+	max-width: 600px;
 	animation: fadeInUp 1s ease-out 0.3s backwards;
 }
 
@@ -134,6 +149,7 @@ h3 {
 	align-items: center;
 	gap: 15px;
 	margin-top: 20px;
+	flex-wrap: wrap;
 }
 
 .cta-button {
@@ -155,12 +171,12 @@ h3 {
 .social-icons {
 	display: flex;
 	align-items: center;
+	gap: 10px;
 }
 
 .social-icons a {
 	color: var(--highlight-color);
 	font-size: 36px;
-	margin-left: 10px;
 	transition: color 0.3s ease, transform 0.3s ease;
 }
 
@@ -170,10 +186,15 @@ h3 {
 }
 
 #home-image {
-	max-width: 140%;
+	max-width: 100%;
+	width: 100%;
 	height: auto;
 	border-radius: 10px;
 	animation: fadeInRight 1s ease-out;
+}
+
+#about {
+	gap: 20px;
 }
 
 .about-card,
@@ -182,7 +203,7 @@ h3 {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	flex: 1;
+	width: 100%;
 	margin: 10px;
 	padding: 28px;
 	background-color: rgba(255, 255, 255, 0.05);
@@ -191,6 +212,10 @@ h3 {
 }
 
 .about-card {
+	max-width: 900px;
+}
+
+.tools-card {
 	max-width: 900px;
 }
 
@@ -204,7 +229,12 @@ h3 {
 #about p {
 	text-align: center;
 	margin-bottom: 20px;
-	line-height: 1.6;
+	line-height: 1.8;
+	max-width: 800px;
+}
+
+#about p:last-child {
+	margin-bottom: 0;
 }
 
 .devicons {
@@ -254,6 +284,7 @@ h3 {
 	display: flex;
 	gap: 10px;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 #projects {
@@ -286,24 +317,32 @@ h3 {
 
 #projects h3 {
 	color: var(--highlight-color);
-	margin-bottom: 20px;
+	margin-bottom: 16px;
+}
+
+#projects .project p {
+	margin-bottom: 16px;
+}
+
+.project-image {
+	margin-bottom: 15px;
 }
 
 .project-image img {
-	max-width: 100%;
+	width: 100%;
 	border-radius: 10px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-image img:hover {
-	transform: scale(1.05);
+	transform: scale(1.02);
 	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .project-button {
 	display: inline-block;
-	margin-top: 15px;
+	margin-top: 10px;
 	padding: 12px 20px;
 	background-color: var(--highlight-color);
 	color: var(--background-color);
@@ -320,8 +359,12 @@ h3 {
 
 footer {
 	text-align: center;
-	padding: 20px 0;
+	padding: 20px 16px;
 	background-color: var(--header-color);
+}
+
+footer p {
+	font-size: 0.95rem;
 }
 
 @keyframes fadeInUp {
@@ -349,6 +392,15 @@ footer {
 @media (max-width: 768px) {
 	.hamburger {
 		display: flex;
+	}
+
+	#navbar nav {
+		padding: 10px 16px;
+	}
+
+	#logo {
+		height: 42px;
+		margin-right: 0;
 	}
 
 	#navbar nav ul {
@@ -388,47 +440,186 @@ footer {
 		top: -8px;
 	}
 
+	.section {
+		padding: 70px 12px;
+		min-height: auto;
+	}
+
+	#home {
+		padding: 95px 12px 40px;
+		min-height: auto;
+	}
+
 	.home-content {
 		flex-direction: column;
 		text-align: center;
+		gap: 24px;
 	}
 
 	.text-content {
 		padding-right: 0;
-		margin-bottom: 40px;
+		margin-bottom: 0;
+		width: 100%;
 	}
 
 	.text-content h1 {
-		font-size: 2rem;
+		font-size: 2.2rem;
+		margin-bottom: 8px;
+	}
+
+	.text-content h3 {
+		font-size: 0.95rem;
+		margin-bottom: 14px;
 	}
 
 	.tagline {
 		font-size: 1rem;
+		line-height: 1.7;
+		margin: 0 auto 24px;
+		max-width: 100%;
+	}
+
+	.cta-container {
+		justify-content: center;
+		gap: 12px;
+	}
+
+	.cta-button {
+		width: 140px;
+		text-align: center;
+		margin-bottom: 0;
+	}
+
+	.social-icons a {
+		font-size: 28px;
+		margin: 0;
+	}
+
+	.image-content {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	#home-image {
+		max-width: 95%;
 	}
 
 	#about {
 		flex-direction: column;
 		align-items: center;
+		gap: 18px;
 	}
 
 	.about-card,
 	.tools-card {
+		width: 100%;
 		max-width: 100%;
-		margin-bottom: 20px;
+		margin: 0 0 18px 0;
+		padding: 24px 18px;
+	}
+
+	.about-card h2,
+	.tools-card h2 {
+		margin-bottom: 16px;
+	}
+
+	#about p {
+		font-size: 0.95rem;
+		line-height: 1.75;
+		margin-bottom: 16px;
+	}
+
+	.devicons {
+		gap: 12px;
+	}
+
+	.devicons i {
+		font-size: 42px;
+	}
+
+	.category {
+		gap: 12px;
+		margin-bottom: 16px;
+	}
+
+	#projects {
+		padding-top: 60px;
+	}
+
+	#projects h2 {
+		margin-bottom: 28px;
+		font-size: 1.8rem;
 	}
 
 	#projects .project {
 		width: 100%;
-		margin-bottom: 20px;
+		margin: 0 0 20px 0;
+		padding: 20px 16px;
 	}
 
-	.social-icons a {
-		font-size: 30px;
-		margin: 0 5px;
+	#projects h3 {
+		font-size: 1.1rem;
+		margin-bottom: 12px;
+	}
+
+	#projects .project p {
+		font-size: 0.95rem;
+		line-height: 1.7;
+	}
+
+	.project-image {
+		margin-bottom: 14px;
+	}
+
+	.project-button {
+		padding: 10px 18px;
+		font-size: 0.95rem;
+	}
+
+	footer {
+		padding: 18px 12px;
+	}
+
+	footer p {
+		font-size: 0.8rem;
+		line-height: 1.5;
+	}
+}
+
+@media (max-width: 480px) {
+	.text-content h1 {
+		font-size: 1.9rem;
+	}
+
+	.text-content h3 {
+		font-size: 0.9rem;
+	}
+
+	.tagline {
+		font-size: 0.95rem;
 	}
 
 	.cta-button {
-		width: 100%;
-		margin-bottom: 10px;
+		width: 135px;
+		padding: 11px 18px;
+		font-size: 0.95rem;
+	}
+
+	.social-icons a {
+		font-size: 26px;
+	}
+
+	.devicons i {
+		font-size: 38px;
+	}
+
+	#about p,
+	#projects .project p {
+		font-size: 0.92rem;
+	}
+
+	footer p {
+		font-size: 0.75rem;
 	}
 }
