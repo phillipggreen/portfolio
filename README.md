@@ -1,43 +1,53 @@
-# Portfolio of Phillip Green
+# Phillip Green — Developer Portfolio
 
-Welcome to my portfolio repository! This project showcases my work, skills, and experience as a Software Engineer and Game Developer.
+This repository contains the source code for my personal developer portfolio.
 
-## Live Demo
+The site highlights my projects, technical skills, and professional background as I continue growing in software development.
 
-You can view the live version of my portfolio here: [[phillipggreen.github.io/portfolio/](https://phillipggreen.github.io/portfolio/)
+## Live Site
+
+View the portfolio here:
+
+https://phillipggreen.github.io/portfolio/
 
 ## About
 
-I am a Quality Engineer by day and a passionate coder by night, currently pursuing a degree in Applied Computer Science. This portfolio includes projects that highlight my skills in software engineering, web design, and game development.
+I am a Continuous Improvement Engineer at Hyster-Yale Material Handling and a Computer Science student at the University of Southern Mississippi.
+
+My engineering background in quality and process improvement influences how I approach software development: identify problems, improve systems, and build practical solutions.
+
+This portfolio highlights projects that reflect my growth in software development, web technologies, and modern development tools.
 
 ## Features
 
--  Personal introduction and professional background
--  Showcase of skills and technologies
--  Interactive project demos
--  Links to social media and a downloadable resume
+- Personal introduction and professional background
+- Showcase of technologies and development tools
+- Portfolio of projects
+- Resume download and professional links
 
 ## Technologies Used
 
--  HTML5
--  CSS3
--  JavaScript
--  GitHub Pages for hosting
+- HTML5
+- CSS3
+- JavaScript
+- Git
+- GitHub Pages
 
-## Getting Started
+## Run Locally
 
-To view the project locally:
+Clone the repository:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/PhilGreen-Dev/portfolio.git
-   ```
-2. Open `index.html` in your web browser.
+```bash
+git clone https://github.com/phillipggreen/portfolio.git
+```
+
+Then open `index.html` in your browser.
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the MIT License.
 
-## Contact
+## Connect
 
-Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/phillipggreen/) or check out my [GitHub](https://github.com/PhilGreen-Dev).
+- LinkedIn: https://www.linkedin.com/in/phillipggreen/
+- GitHub: https://github.com/phillipggreen
