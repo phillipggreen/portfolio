@@ -4,7 +4,7 @@ Welcome to my portfolio repository! This project showcases my work, skills, and 
 
 ## Live Demo
 
-You can view the live version of my portfolio here: [PhilGreen-Dev.github.io/portfolio](https://PhilGreen-Dev.github.io/portfolio/)
+You can view the live version of my portfolio here: [[phillipggreen.github.io/portfolio/](https://phillipggreen.github.io/portfolio/)
 
 ## About
 
@@ -15,7 +15,7 @@ I am a Quality Engineer by day and a passionate coder by night, currently pursui
 -  Personal introduction and professional background
 -  Showcase of skills and technologies
 -  Interactive project demos
--  Links to social media and downloadable resume
+-  Links to social media and a downloadable resume
 
 ## Technologies Used
 
