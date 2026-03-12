@@ -83,8 +83,7 @@ img {
 }
 
 .section {
-	padding: 80px 20px;
-	min-height: 90vh;
+	padding: 60px 20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -102,8 +101,8 @@ h3 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 100vh;
-	padding: 100px 20px 60px;
+	min-height: 80vh;
+	padding: 100px 20px 50px;
 }
 
 .home-content {
@@ -293,7 +292,7 @@ h3 {
 }
 
 #projects h2 {
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 	font-size: 2rem;
 }
 
@@ -441,19 +440,19 @@ footer p {
 	}
 
 	.section {
-		padding: 70px 12px;
+		padding: 50px 16px;
 		min-height: auto;
 	}
 
 	#home {
-		padding: 95px 12px 40px;
+		padding: 90px 16px 30px;
 		min-height: auto;
 	}
 
 	.home-content {
 		flex-direction: column;
 		text-align: center;
-		gap: 24px;
+		gap: 20px;
 	}
 
 	.text-content {
@@ -463,18 +462,18 @@ footer p {
 	}
 
 	.text-content h1 {
-		font-size: 2.2rem;
+		font-size: 2rem;
 		margin-bottom: 8px;
 	}
 
 	.text-content h3 {
-		font-size: 0.95rem;
+		font-size: 0.9rem;
 		margin-bottom: 14px;
 	}
 
 	.tagline {
-		font-size: 1rem;
-		line-height: 1.7;
+		font-size: 0.95rem;
+		line-height: 1.6;
 		margin: 0 auto 24px;
 		max-width: 100%;
 	}
@@ -502,20 +501,20 @@ footer p {
 	}
 
 	#home-image {
-		max-width: 95%;
+		max-width: 82%;
 	}
 
 	#about {
 		flex-direction: column;
 		align-items: center;
-		gap: 18px;
+		gap: 16px;
 	}
 
 	.about-card,
 	.tools-card {
 		width: 100%;
 		max-width: 100%;
-		margin: 0 0 18px 0;
+		margin: 0 0 16px 0;
 		padding: 24px 18px;
 	}
 
@@ -525,8 +524,8 @@ footer p {
 	}
 
 	#about p {
-		font-size: 0.95rem;
-		line-height: 1.75;
+		font-size: 0.9rem;
+		line-height: 1.65;
 		margin-bottom: 16px;
 	}
 
@@ -535,7 +534,7 @@ footer p {
 	}
 
 	.devicons i {
-		font-size: 42px;
+		font-size: 36px;
 	}
 
 	.category {
@@ -544,17 +543,17 @@ footer p {
 	}
 
 	#projects {
-		padding-top: 60px;
+		padding-top: 50px;
 	}
 
 	#projects h2 {
-		margin-bottom: 28px;
+		margin-bottom: 20px;
 		font-size: 1.8rem;
 	}
 
 	#projects .project {
 		width: 100%;
-		margin: 0 0 20px 0;
+		margin: 0 0 16px 0;
 		padding: 20px 16px;
 	}
 
@@ -582,44 +581,44 @@ footer p {
 	}
 
 	footer p {
-		font-size: 0.8rem;
-		line-height: 1.5;
+		font-size: 0.72rem;
+		line-height: 1.4;
 	}
 }
 
 @media (max-width: 480px) {
 	.text-content h1 {
-		font-size: 1.9rem;
+		font-size: 1.8rem;
 	}
 
 	.text-content h3 {
-		font-size: 0.9rem;
+		font-size: 0.85rem;
 	}
 
 	.tagline {
-		font-size: 0.95rem;
+		font-size: 0.92rem;
 	}
 
 	.cta-button {
 		width: 135px;
 		padding: 11px 18px;
-		font-size: 0.95rem;
+		font-size: 0.92rem;
 	}
 
 	.social-icons a {
-		font-size: 26px;
+		font-size: 24px;
 	}
 
 	.devicons i {
-		font-size: 38px;
+		font-size: 34px;
 	}
 
 	#about p,
 	#projects .project p {
-		font-size: 0.92rem;
+		font-size: 0.9rem;
 	}
 
 	footer p {
-		font-size: 0.75rem;
+		font-size: 0.68rem;
 	}
 }
