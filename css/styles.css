@@ -77,8 +77,8 @@ body {
 }
 
 .section {
-	padding: 100px 20px;
-	min-height: 100vh;
+	padding: 80px 20px;
+	min-height: 90vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -190,6 +190,10 @@ h3 {
 	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
 }
 
+.about-card {
+	max-width: 900px;
+}
+
 .about-card h2,
 .tools-card h2 {
 	text-align: center;
@@ -257,6 +261,11 @@ h3 {
 	text-align: center;
 }
 
+#projects h2 {
+	margin-bottom: 40px;
+	font-size: 2rem;
+}
+
 #projects .project {
 	display: inline-block;
 	vertical-align: top;
@@ -275,7 +284,6 @@ h3 {
 	box-shadow: 0 14px 30px rgba(0, 0, 0, 0.24);
 }
 
-#projects h2,
 #projects h3 {
 	color: var(--highlight-color);
 	margin-bottom: 20px;
